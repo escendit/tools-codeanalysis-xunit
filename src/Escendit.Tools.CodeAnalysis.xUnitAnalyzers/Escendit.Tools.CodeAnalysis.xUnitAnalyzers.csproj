@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <DevelopmentDependency>true</DevelopmentDependency>
+        <TargetFrameworks>netstandard2.0;netstandard2.1</TargetFrameworks>
+        <NoWarn>$(NoWarn);NU5128</NoWarn>
+        <IsPackable>true</IsPackable>
+        <IncludeBuildOutput>false</IncludeBuildOutput>
+        <Description>Enforce our coding practices in your projects with our NuGet package's default settings for xunit analyzers.</Description>
+        <PackageTags>analyzers;unit;test;testing;xunit</PackageTags>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="xunit.analyzers" Version="1.1.0">
+            <PrivateAssets>runtime; build; native; contentfiles</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+    </ItemGroup>
+    <ItemGroup>
+        <!-- TFM -->
+        <None Pack="true" PackagePath="build" Include="Escendit.Tools.CodeAnalysis.xUnitAnalyzers.props" />
+        <None Pack="true" PackagePath="build" Include="Escendit.Tools.CodeAnalysis.xUnitAnalyzers.targets" />
+        <!-- TFMs -->
+        <None Pack="true" PackagePath="buildMultiTargeting" Include="Escendit.Tools.CodeAnalysis.xUnitAnalyzers.props" />
+        <None Pack="true" PackagePath="buildMultiTargeting" Include="Escendit.Tools.CodeAnalysis.xUnitAnalyzers.targets" />
+        <!-- Transitive -->
+        <None Pack="true" PackagePath="buildTransitive" Include="Escendit.Tools.CodeAnalysis.xUnitAnalyzers.props" />
+        <None Pack="true" PackagePath="buildTransitive" Include="Escendit.Tools.CodeAnalysis.xUnitAnalyzers.targets" />
+        <!-- Assets -->
+        <None Pack="true" PackagePath="" Include="Escendit.Tools.CodeAnalysis.xUnitAnalyzers.globalconfig" />
+        <!-- README -->
+        <None Pack="true" PackagePath="" Include="$(SolutionDir)/README.md" />
+    </ItemGroup>
+    
+</Project>
