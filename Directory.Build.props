@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
+    <PropertyGroup>
+        <RepositoryType>git</RepositoryType>
+        <RepositoryUrl>https://github.com/escendit/Escendit.Tools.CodeAnalysis.xUnitAnalyzers</RepositoryUrl>
+    </PropertyGroup>
+</Project>
