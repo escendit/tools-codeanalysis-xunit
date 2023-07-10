@@ -9,7 +9,7 @@
         <PackageTags>analyzers;unit;test;testing;xunit</PackageTags>
     </PropertyGroup>
     <ItemGroup>
-        <PackageReference Include="xunit.analyzers" Version="1.1.0">
+        <PackageReference Include="xunit.analyzers" Version="1.2.0">
             <PrivateAssets>runtime; build; native; contentfiles</PrivateAssets>
             <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
         </PackageReference>
