@@ -1,22 +1,9 @@
 <Project>
-    <!-- Solution Commons -->
-    <PropertyGroup>
-        <TargetFramework>net9.0</TargetFramework>
-        <ImplicitUsings>enable</ImplicitUsings>
-        <Nullable>enable</Nullable>
-    </PropertyGroup>
     <!-- SourceLink -->
     <PropertyGroup>
         <RepositoryType>git</RepositoryType>
         <RepositoryUrl>https://github.com/escendit/tools-codeanalysis-xunit</RepositoryUrl>
         <ContinuousIntegrationBuild Condition="'$(CI)' == 'true'">true</ContinuousIntegrationBuild>
-    </PropertyGroup>
-    <!-- Packaging -->
-    <PropertyGroup>
-        <EmbedUntrackedSources>true</EmbedUntrackedSources>
-        <IncludeSymbols>true</IncludeSymbols>
-        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
-        <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
     </PropertyGroup>
     <!-- Package Management -->
     <PropertyGroup>
