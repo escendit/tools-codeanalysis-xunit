@@ -1,4 +1,9 @@
 <Project>
+    <!-- NuGet Restore -->
+    <PropertyGroup>
+        <RestoreLockedMode Condition="'$(CI)' == 'true'">true</RestoreLockedMode>
+        <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+    </PropertyGroup>
     <!-- SourceLink -->
     <PropertyGroup>
         <RepositoryType>git</RepositoryType>
