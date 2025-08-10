@@ -52,5 +52,6 @@ To contribute code, fork the repository and submit a pull request.
 Please ensure that your code follows the project's coding standards and is thoroughly tested.
 
 ## License
-This package is released under the MIT License. See the LICENSE.txt file for details.
+Licensed under Apache License 2.0. See the LICENSE file for the complete license text.
+
 

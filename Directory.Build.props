@@ -1,7 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?>
 <Project>
+    <!-- SourceLink -->
     <PropertyGroup>
         <RepositoryType>git</RepositoryType>
-        <RepositoryUrl>https://github.com/escendit/Escendit.Tools.CodeAnalysis.xUnitAnalyzers</RepositoryUrl>
+        <RepositoryUrl>https://github.com/escendit/tools-codeanalysis-xunit</RepositoryUrl>
+        <ContinuousIntegrationBuild Condition="'$(CI)' == 'true'">true</ContinuousIntegrationBuild>
     </PropertyGroup>
+    <!-- Package Management -->
+    <PropertyGroup>
+        <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    </PropertyGroup>
+    <!-- Package Commons -->
+    <ItemGroup>
+        <PackageReference Include="Escendit.Tools.Branding">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+    </ItemGroup>
 </Project>
