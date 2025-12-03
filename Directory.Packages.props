@@ -1,6 +1,6 @@
 <Project>
     <ItemGroup>
         <PackageVersion Include="Escendit.Tools.Branding" Version="1.2.0"/>
-        <PackageVersion Include="xunit.analyzers" Version="1.25.0"/>
+        <PackageVersion Include="xunit.analyzers" Version="1.26.0"/>
     </ItemGroup>
 </Project>
