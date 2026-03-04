@@ -19,28 +19,14 @@
       },
       "xunit.analyzers": {
         "type": "Direct",
-        "requested": "[1.25.0, )",
-        "resolved": "1.25.0",
-        "contentHash": "J3wD5p2VVOg6TXeOOCrD+7Nl2H/LOZuK1GovDyPbFFnvv8katIULfBCj2sQLIPKT22Ds44j1aHjJle4AU7jCbA=="
+        "requested": "[1.27.0, )",
+        "resolved": "1.27.0",
+        "contentHash": "y/pxIQaLvk/kxAoDkZW9GnHLCEqzwl5TW0vtX3pweyQpjizB9y3DXhb9pkw2dGeUqhLjsxvvJM1k89JowU6z3g=="
       },
       "Microsoft.NETCore.Platforms": {
         "type": "Transitive",
         "resolved": "1.1.0",
         "contentHash": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A=="
-      }
-    },
-    ".NETStandard,Version=v2.1": {
-      "Escendit.Tools.Branding": {
-        "type": "Direct",
-        "requested": "[1.2.0, )",
-        "resolved": "1.2.0",
-        "contentHash": "Tleka3RGcnG623z+4nxdGKINEQn9roCuNOPe0UHqckl4tndXfXEkWezEx011apR45Lqvc33KKrRnlDKv9kbRQQ=="
-      },
-      "xunit.analyzers": {
-        "type": "Direct",
-        "requested": "[1.25.0, )",
-        "resolved": "1.25.0",
-        "contentHash": "J3wD5p2VVOg6TXeOOCrD+7Nl2H/LOZuK1GovDyPbFFnvv8katIULfBCj2sQLIPKT22Ds44j1aHjJle4AU7jCbA=="
       }
     }
   }
